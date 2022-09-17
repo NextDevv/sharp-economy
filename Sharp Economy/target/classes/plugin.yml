@@ -1,0 +1,10 @@
+name: SharpEconomy
+version: '1.0-SNAPSHOT'
+main: me.plugins.sharpeconomy.SharpEconomy
+api-version: 1.19
+authors: [SpreestDev]
+commands:
+    balance:
+        usage: /<command>
+    isconnected:
+        usage: /<command>

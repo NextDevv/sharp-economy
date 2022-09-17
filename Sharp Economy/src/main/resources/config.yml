@@ -1,0 +1,42 @@
+# Sharp Economy configuration settings
+
+# Database settings
+host: "localhost"
+name: "sharpeconomydatalocal"
+user: "root"
+password: "Giova-007!."
+
+# Player start balance
+start-balance: 1000
+
+# Player daily bonus
+daily-bonus-active: true
+daily-bonus: 1500
+daily-bonus-message: "You just received &a$%amount%&f from your daily bonus!"
+
+# Play time pay
+play-time-active: true
+play-time-pay: 100
+
+# Commands settings
+default-command-prefix: "&a[$]  &fSHARP BANK&a  [$]"
+default-command-response-L2: "&a/balance&f show <player>"
+default-command-response-L3: "&a/balance&f pay <player> <amount>"
+default-command-response-L4: "&a/balance&f add <player> <amount>"
+default-command-response-L5: "&a/balance&f remove <player> <amount>"
+default-command-response-L6: "&a/balance&f set <player> <amount>"
+
+balance-error-name: "&c&l[!]&c An error occurred: please check the given name and try again."
+balance-error-format: "&c&l[!]&c You must provide a valid number."
+
+# Show sub command
+show-balance-self: "&fYour balance is: &a$%amount%"
+
+show-balance-target: "&a%target%&f has &a$%amount%&f in their balance!"
+
+# Pay sub command
+pay-balance-success: "&fThe payment of &a$%amount%&f was sent to &a%target%&f"
+pay-balance-target: "&a%player%&f just payed &a%amount%&f to you!"
+pay-balance-self-error: "&c&l[!]&c You cant send money to yourself!"
+
+
