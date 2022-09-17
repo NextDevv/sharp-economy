@@ -1,2 +1,2 @@
 # sharp-economy
-This repository it's about my minecraft plugin that uses data base :)
+Sharp economy plugin, it's a private plugin from the server SharpPVP (Created by me :) )
